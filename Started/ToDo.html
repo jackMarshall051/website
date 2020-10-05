@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ToDo List</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/ToDo.css">
+</head>
+<body>
+  <section class="todoapp">
+    <header>
+        <h2 class="mainHeader">ToDo List</h2>
+      <input id="newTodo" class="new-todo" placeholder="What needs to be done?">
+    </header>
+    <section id="main">
+      <input id="toggleInputAll" class="toggle-all" type="checkbox">
+      <label for="toggle-all">Mark all as complete</label>
+      <ul id="todoListView" class="todo-list"></ul>
+    </section>
+    <footer class="footer">
+      <span class="todo-count"><strong id="todoCount">0</strong> item left</span>
+      <ul class="filters">
+        <li>
+          <a class="selected" id="allWorks" onclick="changeClass(this)" href="#/">All</a>
+        </li>
+        <li>
+          <a href="#active" id="activedItems" onclick="changeClass(this)">Active</a>
+        </li>
+        <li>
+          <a href="#completed" id="completedTodos" onclick="changeClass(this)">Completed</a>
+        </li>
+      </ul>
+      <button class="clear-completed" id="btnClear">Clear completed</button>
+    </footer>
+  </section>
+
+  <script src="js/ToDo.js"></script>
+</body>
+<footer>
+  <div class="navbar">
+    <a href="/Live/index.html">Home</a>
+    <a href="/Live/admin.html">Admin</a>
+    <a href="/Started/dev.html">Development Site</a>
+    <a href="/Started/allPages.html">Index</a>
+    <a href="/Started/ToDo.html"  class="active">ToDo</a>
+    <a href="/Live/contactMe.html">Contact Me</a>
+    <a href="/portfolio/portfolio.html" style="float:right;">Portfolio</a>
+  </div>
+</footer>
+</html>

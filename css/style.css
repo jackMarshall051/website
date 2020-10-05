@@ -1,0 +1,116 @@
+/* Built In Html Stuff*/
+
+html {
+    background-color:#222222;
+}
+
+hr {
+    border:none;
+    border-top:1px dotted white;
+    width:100%;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    height:100px;
+}
+
+h2 {
+    color:whitesmoke;
+    margin-left:80px;
+}
+
+li {
+    color:whitesmoke;
+    margin-left:90px;
+}
+
+/*Header Styling*/
+.mainHeader {
+    color:#003efa;
+    text-align:center;
+    padding:1px;
+    margin-top:6px;
+    clear:both;
+}
+
+
+
+.header {
+    color:#003efa;
+}
+
+
+/*BUTTONS*/
+.mainButton {
+    border:1px dashed #999999;
+    color:#ffffff;
+    background-color:transparent;
+    float:left;
+    margin-top:13px;
+    font-size:15px;
+}
+
+.adminButton {
+    margin-left:150px;
+    margin-top:25px;
+    margin-bottom:25px;
+    border:1px dashed #999999;
+    color:#ffffff;
+    background-color:transparent;
+    font-size:15px;
+}
+
+.indexButton {
+    margin-left:150px;
+    margin-top:25px;
+    margin-bottom:25px;
+    border:1px dashed #999999;
+    color:#ffffff;
+    background-color:transparent;
+    font-size:15px;
+}
+
+.footerButton {
+    border:1px dashed #999999;
+    color:#ffffff;
+    background-color:transparent;
+    font-size:15px;
+}
+
+
+
+
+
+
+.navbar {
+    background-color:#333333;
+    overflow:hidden;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+.navbar a {
+    float:left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    background-color:#dddddd;
+    color:black;
+}
+
+.navbar a.active {
+    background-color:#003EFA;
+    /*background-color:#4CAF50;*/
+    color:white;
+}

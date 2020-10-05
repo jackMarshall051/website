@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<header>
+    <h1 class="mainHeader">Contact Me 
+        <button onclick="window.location.href='index.html';" class="mainButton">Go Back</button>
+    </h1>
+    <hr>
+</header>
+
+<body>
+    <h2>Personal Details:</h2>
+    <li>Name:</li>
+    <li>Email:</li>
+    <li>Phone Number:</li>
+
+
+    <input type="text" id="keyInput">
+    <button onclick="checkKey()">Check Key</button>
+
+    <script src="/js/contactMe.js"></script>
+    <script src="/js/sha1.js">
+        hash = calcSHA1("1234567890");
+    </script>
+</body>
+
+<footer>
+    <div class="navbar">
+        <a href="/Live/index.html">Home</a>
+        <a href="/Live/admin.html">Admin</a>
+        <a href="/Started/dev.html">Development Site</a>
+        <a href="/Started/allPages.html">Index</a>
+        <a href="/Started/ToDo.html">ToDo</a>
+        <a href="/Live/contactMe.html"  class="active">Contact Me</a>
+        <a href="/portfolio/portfolio.html" style="float:right;">Portfolio</a>
+    </div>
+</footer>
+
+</html>

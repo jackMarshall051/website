@@ -1,0 +1,59 @@
+/* Built In Html Stuff*/
+
+html {
+    background-color:#222222;
+}
+
+h1 {
+    color:whitesmoke;
+    font-size:60px;
+    margin-top:402px
+}
+
+h2 {
+    color:whitesmoke;
+    font-size:40px;
+    margin-top:20px
+}
+
+hr {
+    border:none;
+    border-top:2px dotted white;
+    width:100%;
+}
+
+div {
+    display:flex;
+    justify-content:center;
+    position:relative;
+}
+
+.headerHeading {
+    text-align:center;
+    color:whitesmoke;
+    font-size:40px;
+    margin-top:20px
+}
+
+/*BUTTONS*/
+.mainButton {
+    border:1px dashed #999999;
+    color:#ffffff;
+    background-color:transparent;
+    margin-top:13px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:20px;
+}
+
+.headerButton {
+    position:absolute;
+    left:0;
+    border:1px dashed #999999;
+    color:#ffffff;
+    background-color:transparent;
+    margin-top:9px;
+    margin-left:20px;
+    margin-right:20px;
+    font-size:15px;
+}
